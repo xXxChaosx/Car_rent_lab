@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Система обліку прокату автомобілів</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-container">
+        <header>
+            <h1>Система обліку прокату автомобілів</h1>
+            <button class="logout" onclick="location.href='login.html'">Вийти</button>
+        </header>
+        <nav>
+            <button>Звіти</button>
+            <button>Користувачі</button>
+        </nav>
+
+        <section id="report-section" class="content-section">
+            <h2>Звіти про прокати</h2>
+            <button class="create-report-btn">Створити новий звіт</button>
+            <table class="reports-table">
+                <thead>
+                    <tr>
+                        <th>Назва звіту</th>
+                        <th>Код прокату</th>
+                        <th>Клієнт</th>
+                        <th>Автомобіль</th>
+                        <th>Дата початку</th>
+                        <th>Дата завершення</th>
+                        <th>Сума оплати</th>
+                        <th>Дії</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Звіт №1</td>
+                        <td>PR-001</td>
+                        <td>Олександр Шевченко</td>
+                        <td>Toyota Camry</td>
+                        <td>2024-10-01</td>
+                        <td>2024-10-10</td>
+                        <td>5000 грн</td>
+                        <td>
+                            <button>Редагувати</button>
+                            <button>Видалити</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Звіт №2</td>
+                        <td>PR-002</td>
+                        <td>Ірина Петрова</td>
+                        <td>Ford Focus</td>
+                        <td>2024-10-15</td>
+                        <td>2024-10-20</td>
+                        <td>3000 грн</td>
+                        <td>
+                            <button>Редагувати</button>
+                            <button>Видалити</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </div>
+</body>
+</html>
